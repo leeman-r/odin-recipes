@@ -13,6 +13,8 @@ img {
     margin-right: auto;
     margin-bottom: 3rem;
     max-width: 70%;
+    border-color: mediumseagreen;
+    border-style: solid;
   
 }
 
@@ -29,11 +31,19 @@ h1 {
     align-items: center
 }
 
-.container > img {
-    max-width: 200px;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li > img {
+    width: 200px;
+    height: 140px;
     border-radius: 50%;
     border-color: mediumseagreen;
     border-style: solid;
+    
 }
 
 a {
@@ -47,3 +57,4 @@ a:hover {
     font-size: 1.5rem;
     text-decoration: underline;
 }
+
