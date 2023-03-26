@@ -32,6 +32,8 @@ img {
     margin-right: auto;
     margin-bottom: 3rem;
     max-width: 55%;
+    border-color: mediumseagreen;
+    border-style: solid;
     
   
 }
@@ -84,4 +86,8 @@ ul > li {
 ol > li {
     margin: 0 auto;
     width: 50%;
+}
+
+hr {
+    width: 65%;
 }

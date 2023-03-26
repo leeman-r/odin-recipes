@@ -24,14 +24,14 @@ h1 {
     letter-spacing: 8px;
 }
 
-.container {
+/* .container {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    align-items: center
-}
+    align-items: center;
+} */
 
-ul {
+/* ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -43,8 +43,31 @@ li > img {
     border-radius: 50%;
     border-color: mediumseagreen;
     border-style: solid;
+    object-fit: cover;
+    
+} */
+
+
+.recipes {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
     
 }
+
+div > img {
+    width: 200px;
+    height: 140px;
+    border-radius: 50%;
+    border-color: mediumseagreen;
+    border-style: solid;
+    object-fit: cover;
+    
+}
+
 
 a {
     text-decoration: none;
